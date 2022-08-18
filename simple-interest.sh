@@ -23,6 +23,6 @@
    echo "Enter time period in years:"
    read n
 
-   s=`expr $p \* $t \* $n / 100`
+   s=`expr $p \* $r \* $n / 100`
    echo "The simple interest is: "
    echo $s
